@@ -1,0 +1,34 @@
+import javax.swing.JOptionPane;
+import java.text.*;
+
+public class Exercise4 {
+	static final double TAX_RATE = .0625;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String cdld;
+		cdld = JOptionPane.showInputDialog("This program calculates the total cost of a CD order"+
+				"\nPlease enter the ID of the CD ");
+		int CDld = Integer.parseInt(cdld);
+		String cdTitle;
+		cdTitle = JOptionPane.showInputDialog("Please enter the title of the CD");
+		DecimalFormat f1 = new DecimalFormat("#.00");
+		NumberFormat  f2 = NumberFormat.getCurrencyInstance();
+		String cdPrice;
+		cdPrice = JOptionPane.showInputDialog("Please enter the price of the CD in U.S. dollars");
+		double Price = Double.parseDouble(cdPrice);
+		int cdQuantity = Integer.parseInt(
+				JOptionPane.showInputDialog("Please enter the quantity to be  purchased"));
+		double cdSubtotal = cdQuantity * Price;
+		double cdTotal = cdSubtotal * (1+TAX_RATE);
+		JOptionPane.showMessageDialog(null, 
+				                       "Summary of the transaction:"+
+		                               "\n"+"\nCD ID: "+CDld+"\nCD Title: "+cdTitle+
+		                               "\nCD Unit Price:"+f2.format(Price)+"\nCD Quantity: "+cdQuantity+
+		                               "\n"+"\nSubtotal: "+f2.format(cdSubtotal)+"\nTax rate:"+TAX_RATE*100+"%"+
+		                               "\nTotal: "+f2.format(cdTotal)+"\n"+"\nEnd of Program");
+		
+
+	}
+
+}

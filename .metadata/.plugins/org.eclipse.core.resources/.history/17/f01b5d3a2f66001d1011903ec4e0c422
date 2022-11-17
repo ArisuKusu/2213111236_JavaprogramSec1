@@ -1,0 +1,23 @@
+import javax.swing.JOptionPane;
+
+public class Exercise4 {
+	static final double TAX_RATE = .0625;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String cdld;
+		cdld = JOptionPane.showInputDialog("This program calculates the total cost of a CD order"+
+				"\nPlease enter the ID of the CD ");
+		int CDld = Integer.parseInt(cdld);
+		String cdTitle;
+		cdTitle = JOptionPane.showInputDialog("Please enter the title of the CD");
+		String cdPrice;
+		cdPrice = JOptionPane.showInputDialog("Please enter the price of the CD in U.S. dollars");
+		double Price = Integer.parseInt(cdPrice);
+		int cdQuantity = Integer.parseInt(
+				JOptionPane.showInputDialog("Please enter the quantity to be  purchased"));
+		
+
+	}
+
+}
