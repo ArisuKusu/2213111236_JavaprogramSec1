@@ -1,4 +1,4 @@
 StudentID : 2213111236
 Full Name : Natthakorn Samonkhetkit
-AKA       : Auto 
-ClassDetail: Control statement & confirm Dialog
+AKA       : Kusu
+ClassDetail: String Methods and Defined Met
