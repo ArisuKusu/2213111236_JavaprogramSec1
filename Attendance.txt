@@ -1,4 +1,4 @@
 StudentID : 2213111236
 Full Name : Natthakorn Samonkhetkit
 AKA       : Kusu
-ClassDetail: String Methods and Defined Met
+ClassDetail: Repeat Lab Sheet 1-4
