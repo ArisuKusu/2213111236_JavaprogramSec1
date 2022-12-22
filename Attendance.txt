@@ -1,4 +1,4 @@
 StudentID : 2213111236
 Full Name : Natthakorn Samonkhetkit
 AKA       : Kusu
-ClassDetail: Array in Java
+ClassDetail: Class and Object, Array of Object
