@@ -26,6 +26,7 @@ public class Product {
     	double result = unit * price;
     	return result;
     }
+
 	
 
 }
