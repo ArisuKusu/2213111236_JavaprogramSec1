@@ -1,4 +1,4 @@
 StudentID : 2213111236
 Full Name : Natthakorn Samonkhetkit
 AKA       : Kusu
-ClassDetail: Review class GUI
+ClassDetail:  Composition and Inheritance
