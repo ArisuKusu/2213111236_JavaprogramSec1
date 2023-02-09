@@ -1,6 +1,6 @@
 
 public class Point3D extends Point2D{
-	private float z;
+	private float z = 0.0f;
 	
 	public Point3D() {
 		super();
@@ -29,7 +29,7 @@ public class Point3D extends Point2D{
 		return results;
 	}
 	public String toString() {
-		
+		return super.toString() + " ,and "+getZ()+")";
 	}
 
 }
